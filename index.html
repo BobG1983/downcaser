@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Downcase, Upcase, or Titlecase your text online.">
+    <meta name="author" content="Bob Gardner">
+    <link rel="icon" href="./favicon.ico">
+
+    <title>Downcaser</title>
+
+    <!-- Custom styles for this template -->
+    <link rel="preload" href="./css/bootstrap.min.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="./css/downcaser.min.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./css/bootstrap.min.css"></noscript>
+    <noscript><link rel="stylesheet" href="./css/downcaser.min.css"></noscript>
+    <script src="./js/downcaser.js"></script>
+  </head>
+
+  <body>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container container">
+          <div class="inner cover">
+            <h1 class="align-items-center">Downcaser</h1>
+            <p class="align-items-center">Because downcasing things shouldn't be so difficult.</p>
+          </div>
+
+          <div class="inner content">
+            <form>
+              <div class="form-group">
+                <label for="downcaseInput">Put Words in Here</label>
+                <textarea class="form-control" id="downcaseInput" rows="5"></textarea>
+              </div>
+              <br />
+              <div class="form-group">
+                <p>Click a button</p>
+                <input class="btn btn-lg btn-secondary" type="button" id="btn1" onClick='toUpper()' value="Uppercase" />
+                <input class="btn btn-lg btn-secondary" type="button" id="btn2" onClick='toLower()' value="Lowercase" />
+                <input class="btn btn-lg btn-secondary" type="button" id="btn3" onclick='toTitle()' value="Titlecase" />
+              </div>
+            </form>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Knocked together one day by <a href="https://twitter.com/BigBobGardner">@BigBobGardner</a>.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript placed at the end of the document so the pages load faster
+    ================================================== -->
+    <script src="./js/downcaser.min.js"></script>
+  </body>
+
+</html>
